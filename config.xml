@@ -17,6 +17,13 @@
     <param name="ios-package" value="CDVInAppBrowser" />
 </feature>
 <feature name="InAppBrowser" />
+<gap:plugin name="org.apache.cordova.SplashScreen" />
+	<feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.SplashScreen" />
+</feature>
+<feature name="SplashScreen">
+    <param name="ios-package" value="CDVSplashScreen" />
+</feature>
 <preference name="phonegap-version" value="3.0.0" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
